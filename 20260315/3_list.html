@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>無序號 un-ordered list清單列表，包住 list item</h2>
+    <!-- ul是無序號列表，ol是有序號列表 -->
+    <!-- li是列表項-->
+    <!--emmet 速寫:ul>li*3{第一項}-->
+    <ul>
+        <li>第一項</li>
+        <li>第二項</li>
+        <li>第三項</li>
+    </ul>
+
+    <h2>有序號 ordered list清單列表，包住 list item</h2>
+    <!--emmet 速寫:ol>li*3{第一項}-->
+    <ol start="3" type="A">
+        <!--start是從哪一個數字開始-->
+        <!--type是數字的類型，A是大寫英文字母，a是小寫英文字母，I是大寫羅馬數字，i是小寫羅馬數字-->
+        <!--改外觀html4可以.html5改外觀用CSS 不要寫tape改外觀-->
+        <li>第一項</li>
+        <li>第二項</li>
+        <li>第三項</li>
+    </ol>
+    <!--(li*3[href="#"]{連結$*3})-->
+    <h2>巢狀清單示範</h2>
+    <ul>
+        <li>第一項</li>
+        <li>第二項
+            <ul>
+                <li>第二項-第一項</li>
+                <li>第二項-第二項</li>
+                <li>第二項-第三項</li>
+            </ul>
+        </li>
+        <li>第三項</li>
+    </ul>
+    <!-- 基本描述清單 很少見-->
+    <!--dl是描述清單，dt是定義術語，dd是定義說明-->
+    <dl>
+        <dt>HTML</dt>
+        <dd>超文本標記語言，用於建立網頁結構</dd>
+
+        <dt>CSS</dt>
+        <dd>層疊樣式表，用於控制網頁外觀</dd>
+
+        <dt>JavaScript</dt>
+        <dd>程式語言，用於增加網頁互動性</dd>
+    </dl>
+
+</body>
+
+</html>
